@@ -1,3 +1,4 @@
 date_checked,outbound_date,return_date,airline,out_dep,out_arr,ret_dep,ret_arr,within_time_window,total_price_usd,recommendation,notes
 2026-08-02,2026-10-30,2026-11-02,JetBlue Airways,9:15 AM,12:34 PM,10:59 PM,7:19 AM,outbound_only,406.80,WAIT,"Exact outbound match to sister's flight; no matching return in window, nearest is a redeye"
 2026-08-02,2026-10-30,2026-11-02,American Airlines,9:45 AM,12:46 PM,2:41 PM,11:00 PM,outbound_only,396.81,WAIT,"Outbound within +-1hr window; no return in window"
+2026-08-02,2026-10-30,2026-11-02,JetBlue Airways,9:15 AM,12:34 PM,10:59 PM,7:19 AM,outbound_only,406.80,WAIT,"Automated daily check (test run): cheapest market fares still $396-407 range, no full-window match, unchanged from baseline"
